@@ -7,6 +7,7 @@ public class GameLogic : MonoBehaviour
 
 	public void ToggleUI()
 	{
+        Debug.Log("In ToggleUI...");
 		startUI.SetActive(!startUI.activeSelf);
 		restartUI.SetActive(!restartUI.activeSelf);
 	}
