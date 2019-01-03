@@ -209,7 +209,7 @@ public class GameLogic_4_Final : MonoBehaviour
 		Debug.Log("You failed, resetting puzzle");
 
 		// Get the GVR audio source component on the failAudioHolder and play the audio.
-		failAudioHolder.GetComponent<GvrAudioSource>().Play();
+		failAudioHolder.GetComponent<AudioSource>().Play();
 
 		// Reset the index the player is trying to solving.
 		currentSolveIndex = 0;
